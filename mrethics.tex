@@ -1,0 +1,48 @@
+\documentclass[conference]{IEEEtran}
+ \usepackage{mathptmx}
+ \usepackage{graphicx}
+ \usepackage{times}
+ \usepackage{balance} % For balanced columns on the last page
+
+\usepackage{hyperref}
+
+
+\usepackage{enumitem}
+\setlist{nolistsep}
+
+\title{Making ethical decisions for the immersive web}
+
+\author{Diane Hosfelt \\ dhosfelt@mozilla.com \\ Mozilla \\ }
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Mixed reality (MR) ethics occupies a space that intersects with web ethics, emerging tech ethics, healthcare ethics and product ethics (among others). This paper focuses on how we can build an immersive web that encourages ethical development and usage. The technology is beyond emerging (footnote: generally, the ethics of emerging technologies are focused on ethical assessments of research and innovation), but not quite entrenched. We're still in a position to intervene in the development process, instead of attempting to retrofit ethical decisions into an established design. While we have a wider range of data to analyze than most emerging technologies, we're still in a much more speculative state than entrenched technologies. This space is a challenge and an opportunity.
+\end{abstract}
+
+\section{Introduction}
+\input{./intro}
+
+\section{What are Mixed Reality Ethics?}
+\input{./background}
+
+\section{Data collection and inference}\label{sec:data}
+\input{./considerations}
+
+\section{Applications and ethical scenarios}
+\input{./applications}
+
+\section{Discussion}
+\input{./discussion}
+
+\section{Conclusions}
+\input{./conclusion}
+
+\balance
+\bibliography{bib}{}
+\bibliographystyle{plain}
+
+\end{document}
