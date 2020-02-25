@@ -1,42 +1,61 @@
-\documentclass[conference]{IEEEtran}
+\documentclass[letterpaper,twocolumn,10pt]{article}
+\usepackage{usenix2020_SOUPS}
+
+%\documentclass[article]{vgtc}
  \usepackage{mathptmx}
  \usepackage{graphicx}
  \usepackage{times}
  \usepackage{balance} % For balanced columns on the last page
 
-\usepackage{hyperref}
-
+%\usepackage[hyphens]{url}
+%\usepackage{hyperref}
 
 \usepackage{enumitem}
 \setlist{nolistsep}
 
-\title{Making ethical decisions for the immersive web}
-
-\author{Diane Hosfelt \\ dhosfelt@mozilla.com \\ Mozilla \\ }
-\date{\today}
+% less hyphens plz
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
 
 \begin{document}
 
+%\author{{\rm Diane Hosfelt} \\ Mozilla \\ }
+%\def\plainauthor{Diane Hosfelt}
+\date{}
+\title{\Large \bf An Ethical Approach to Mixed Reality}
 \maketitle
+\thecopyright
+
+%\onlineid{1270}
 
 \begin{abstract}
-Mixed reality (MR) ethics occupies a space that intersects with web ethics, emerging tech ethics, healthcare ethics and product ethics (among others). This paper focuses on how we can build an immersive web that encourages ethical development and usage. The technology is beyond emerging (footnote: generally, the ethics of emerging technologies are focused on ethical assessments of research and innovation), but not quite entrenched. We're still in a position to intervene in the development process, instead of attempting to retrofit ethical decisions into an established design. While we have a wider range of data to analyze than most emerging technologies, we're still in a much more speculative state than entrenched technologies. This space is a challenge and an opportunity.
+Mixed reality (MR) ethics occupies a space that intersects with web ethics, emerging tech ethics, healthcare ethics and product ethics (among others). This paper focuses on how we can build an immersive web that encourages ethical development and usage, but the scenarios and principles presented apply to wider MR systems. This paper presents a set of seven principles to guide developers and researchers in building ethical MR systems and illustrate the use of these principles through a series of case studies. It also provides a guide to the current legal landscape and how privacy law may interact with MR technologies, while providing concrete steps technologists can take to create a more ethical immersive future.
+
 \end{abstract}
+
+%\keywords{mixed reality, ethics, privacy}
 
 \section{Introduction}
 \input{./intro}
 
-\section{What are Mixed Reality Ethics?}
+\section{Background}\label{sec:background}
 \input{./background}
 
-\section{Data collection and inference}\label{sec:data}
-\input{./considerations}
+\section{Case Studies}\label{sec:studies}
+\input{./casestudies}
 
-\section{Applications and ethical scenarios}
-\input{./applications}
+\section{Principles}\label{sec:principle}
+\input{./principles}
 
-\section{Discussion}
+\section{Discussion}\label{sec:discussion}
 \input{./discussion}
+
+\section{Limitations}
+Mixed reality technologies are still emerging into the mainstream, meaning they occupy a speculative state. The principles presented in \autoref{sec:principle} might not suffice and are likely to evolve as the technology evolves.
+
+The legal discussion in \autoref{sec:discussion} is mostly constrained by a focus on American privacy law. Further work is needed to contextualize this for European countries and other privacy jurisdictions, particularly where MR devices are prominent. Expanding upon the specifics of applicability of CCPA is also left to future work.
 
 \section{Conclusions}
 \input{./conclusion}
