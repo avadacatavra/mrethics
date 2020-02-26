@@ -2,7 +2,7 @@ Immersive technologies occupy a space that intersects emerging, enabling, and en
 
 This means that we also need to understand the current legal concept of privacy and how it might apply to future technologies. By identifying gaps at this point in time, we can collaborate with legislators to craft regulations that are useful and technically feasible. For example, instituting a blanket ban on collecting biometric data would be less useful than preventing companies from selling information to third parties that is been derived from the biometric data.
 
-A key issue for analyzing legal implications identified by Lemley and Volokh is the \emph{Bangladesh Problem}, which is the concept that violators or perpetrators of `virtual crimes' can reside in completely different jurisdictions from those of their victims \cite{lemley2017law}. While this is true for nearly all similar internet-enabled technologies, the presence and data collection capabilities (and ensuing opportunity for privacy or other violations) inherent in MR technologies offers new urgency in analyzing current and future legal doctrine. These laws should be informed by both ethics and the researchers and implementors of MR technologies.
+A key issue for analyzing legal implications identified by Lemley and Volokh is the \emph{Bangladesh Problem}, which is the concept that violators or perpetrators of `virtual crimes' can reside in completely different jurisdictions from those of their victims \cite{lemley2017law}. While this is true for nearly all similar internet-enabled technologies, the presence and data collection capabilities (and ensuing opportunity for privacy or other violations) inherent in MR technologies offers new urgency in analyzing current and future legal doctrine. These laws should be informed by both ethical principles as the ones listed here and the researchers and implementors of MR technologies.
 
 \subsection{Current legal landscape}\label{sec:laws}
 %Overview of information privacy history that we will reference
@@ -10,13 +10,13 @@ A key issue for analyzing legal implications identified by Lemley and Volokh is 
 %- warren and brandeis
 %- Whalen v Roe and 'right to information privacy'
 
-This section focuses on the existing information privacy law landscape and how we might apply it to the challenges presented by MR devices. With the explosion of technical advances that have occurred over the past few decades, it is not surprising that the law has struggled to keep pace. In his \emph{Olmstead v United States} dissent, Justice Louis Brandeis states that ``[the government] relies on the language of the [Fourth] amendment, and it claims that the protection given thereby cannot properly be held to include a telephone conversation... this Court has repeatedly sustained the exercise of power by Congress, under various clauses of that instrument, over objects of which the Fathers could not have dreamed."
+With the explosion of technical advances that have occurred over the past few decades, it is not surprising that the law has struggled to keep pace. In his \emph{Olmstead v United States} dissent, Justice Louis Brandeis states that ``[the government] relies on the language of the [Fourth] amendment, and it claims that the protection given thereby cannot properly be held to include a telephone conversation... this Court has repeatedly sustained the exercise of power by Congress, under various clauses of that instrument, over objects of which the Fathers could not have dreamed."
 
 Brandeis' argument is that the Fourth Amendment still protects technologies that did not exist when it was conceived and written. The amendment's protections extend to new technologies; otherwise, the government would have the ability to violate privacy in more subtle ways than forcible search and seizure.
 
 Privacy is not just about what the law says---it is shaped by the society in which we live and how we value privacy. Ethics and society can inform the law, and in turn, the law should reinforce ethical and social norms. While some aspects of MR devices are inadequately addressed by current laws, there are some clear parallels we can make.
 
-Consider the `emotion-annotating'  HMD presented in \autoref{subsec:communications} and its resemblance to polygraph machines. Modern polygraphs use similar sensors to those used in MR devices, including GSR\footnote{galvanic skin response}, blood pressure, and respiration, to detect if subjects are being untruthful. However, most courts exclude polygraphs as evidence, citing weak scientific underpinnings. Despite this, many employers still attempt to use them during hiring or investigations. Thanks to the Employee Polygraph Protection Act, private sector employers are disallowed from requiring polygraphs or disciplining employees solely on the basis of the results of a polygraph test, but there are some circumstances where it is lawful to use them.
+Consider the `emotion-annotating'  HMD presented in \autoref{subsec:communications} and its resemblance to polygraph machines. Modern polygraphs use similar sensors to those used in MR devices, including GSR,\footnote{galvanic skin response} blood pressure, and respiration, to detect if subjects are being untruthful. However, most courts exclude polygraphs as evidence, citing weak scientific underpinnings. Despite this, many employers still attempt to use them during hiring or investigations. Thanks to the Employee Polygraph Protection Act~\cite{polygraph}, private sector employers are disallowed from requiring polygraphs or disciplining employees solely on the basis of the results of a polygraph test, but there are some circumstances where it is lawful to use them.
 
 There are limits on what questions can be asked by polygraph examiners, namely questions regarding religion, race, politics, sexual behavior, or union activities. Based on this existing precedent, we can say that the law \emph{should} similarly prevent the use of MR devices to infer those beliefs. Unfortunately, it may be more difficult to prove that an MR device inferred this information than it is to show that a polygraph examiner asked a question illegally.
 
@@ -29,22 +29,22 @@ The sectoral approach in the United States can sometimes draw even finer distinc
 \subsubsection{Personally identifiable information (PII)}
 The concept of PII is central to most privacy legislation, so, what is it? We do not actually have a good definition.
 \begin{description}
-	\item[Tautological]: ``PII is any information that identifies a person"
+	\item[Tautological]: ``PII is any information that identifies a person''
 	\item[Non-public]: PII is non-public information (but does not mention identifiability)
 	\item[Specific types]: lists data that is PII, such as name and address
 \end{description}
 
-I contend that the tautological approach is the least bad of these, because it is more adaptable to new technologies. For example, suppose an individual's movements in a virtual world create a unique, identifying fingerprint. Would that be PII? It wouldn't be listed as PII in legislation, and it is not necessarily `non-public,' but it is an identifying biometric that we have an interest in protecting. Defining, addressing, and protecting PII in the immersive world are open questions.
+I contend that the tautological approach is the least bad of these, because it is more adaptable to new technologies. For example, suppose an individual's movements in a virtual world create a unique, identifying fingerprint. Would that be PII? It would not be listed as PII in legislation, and it is not necessarily `non-public,' but it is an identifying biometric that we have an interest in protecting. Defining, addressing, and protecting PII in the immersive world are open questions.
 
 
 \subsubsection{Reasonable expectation of privacy}
-The ``reasonable expectation of privacy" test was established in a concurring opinion for \emph{Katz v United States}\cite{katz1967} to articulate when the Fourth Amendment applies:
+The ``reasonable expectation of privacy'' test was established in a concurring opinion for \emph{Katz v United States}\cite{katz1967} to articulate when the Fourth Amendment applies:
 \begin{enumerate}
-	\item A person must exhibit an ``actual (subjective) expectation of privacy"
-	\item ``The expectation [must] be one that society is  prepared to recognize as `reasonable' "
+	\item A person must exhibit an ``actual (subjective) expectation of privacy''
+	\item ``The expectation [must] be one that society is  prepared to recognize as `reasonable' ''
 \end{enumerate}
 
-The Court ruled that it was a violation for the police to record Katz's conversations in a phone booth, noting that ``the Fourth Amendment protects people, not places." When we look at applying these principles to MR technology and experiences, we do not have well-defined concept of what privacy is in the space. As a society, we need to determine what `reasonable privacy' is in virtual spaces. This is complicated by the \emph{Third Party Doctrine} established by \emph{Smith v Maryland}\cite{1979smith}, which holds that individuals have no reasonable expectation of privacy over data they have `voluntarily' given to third parties.
+The Court ruled that it was a violation for the police to record Katz's conversations in a phone booth, noting that ``the Fourth Amendment protects people, not places.'' When we look at applying these principles to MR technology and experiences, we do not have well-defined concept of what privacy is in the space. As a society, we need to determine what `reasonable privacy' is in virtual spaces. This is complicated by the \emph{Third Party Doctrine} established by \emph{Smith v Maryland}~\cite{1979smith}, which holds that individuals have no reasonable expectation of privacy over data they have `voluntarily' given to third parties.
 
 \begin{quote}
 Marshall, J. joined by Brennan, J. dissenting...Privacy is not a discrete commodity, possessed absolutely or not at all...In so ruling, the Court determines that individuals who convey information to third parties have `assumed the risk' of disclosure to the government. 
@@ -69,7 +69,7 @@ Most companies post privacy policies on their webpages. In these, it is common f
 In addition to informing users (although, in practice, consumers rarely read privacy policies), privacy policies have become a way to make companies accountable. The Federal Trade Commission (FTC) considers violating privacy policies to be an unfair and deceptive practice. This has led to the FTC being the leading privacy agency in the US, despite being limited in enforcement capabilities.
 
 \subsubsection{California Consumer Protection Act}
-The California Consumer Protection Act (CCPA) came into effect on January 1, 2020, protecting the data of all California residents. It uses a tautological definition of PII, defining ``personal information" as ``any information that ... relates to ... a particular consumer or household." This includes data such as names, Internet Protocol addresses, and web browsing histories.\footnote{\url{https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375}}
+The California Consumer Protection Act (CCPA) came into effect on January 1, 2020, protecting the data of all California residents. It uses a tautological definition of PII, defining ``personal information'' as ``any information that ... relates to ... a particular consumer or household.'' This includes data such as names, Internet Protocol addresses, and web browsing histories.\footnote{\url{https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375}}
  From an MR perspective, we can expect that this will broadly cover MR data outputs.
 
 \subsubsection{International Privacy Law}
@@ -89,7 +89,7 @@ By working with legislators, we can help them understand the complications and u
 
 \subsubsection{Establish a regulatory authority for flexible and responsive oversight}
 
-it is unrealistic to expect laws to keep up with the pace of technological advancement. For bills signed into law from 2011-2019, it took 241 days between for a bill to become a law. Generally, this is a good thing. Stable laws create a stable government. Unfortunately, this means that the laws are significantly behind, and they are written and interpreted by people who do not have much technical background.
+It is unrealistic to expect laws to keep up with the pace of technological advancement. For bills signed into law from 2011-2019, it took 241 days between for a bill to become a law. Generally, this is a good thing. Stable laws create a stable government. Unfortunately, this means that the laws are significantly behind, and they are written and interpreted by people who do not have much technical background.
 
 The Financial Industry Regulatory Authority (FINRA) was established in 2017 to be a self-regulatory organization (SRO) for the finance industry. Its purpose is to promote trust in the US finance industry by ensuring that firms operate fairly. The tech industry can similarly embrace an SRO to create ethical guidelines and craft (and enforce) regulation to better serve consumers\cite{reich}.
 
@@ -97,7 +97,7 @@ The web is shaped by standards bodies like the World Wide Web Consortium (W3C). 
 
 When one browser has a monopoly, developers are not incentivized to make their sites work on multiple platforms. This decreases both competition and the efficacy of web standards---if there is only one major browser, then their implementation becomes synonymous with the standard. We need diverse viewpoints and interests to shape the web, otherwise it will only serve the interests of a few.
 
-Like the model of web governance, consensus should mitigate conflicts of interest. The tech industry is broad with competing interests---while we have discovered that we can not trust when a single company says, ``Trust us with your data," we might be able to trust a diverse group of experts who say, ``Trust us to ensure your privacy is respected." Between this and government oversight, we can have a flexible and responsive regulatory authority that minimizes internal abuse.
+Like the model of web governance, consensus should mitigate conflicts of interest. The tech industry is broad with competing interests---while we have discovered that we can not trust when a single company says, ``Trust us with your data,'' we might be able to trust a diverse group of experts who say, ``Trust us to ensure your privacy is respected.'' Between this and government oversight, we can have a flexible and responsive regulatory authority that minimizes internal abuse.
 
 \subsubsection{Engage engineers and designers to incorporate privacy by design}
 
